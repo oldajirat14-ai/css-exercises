@@ -1,1 +1,18 @@
 /* Add CSS Styling */
+
+.click{
+    border: 2px solid grey;
+    font-size: 28px;
+    font-family: "Times New Roman", Helvetica, sans-serif;
+}
+
+.me{
+    background-color: black;
+    color: white;
+    
+}
+
+.me-no{
+    background-color: yellow;
+    color: 000;
+}
