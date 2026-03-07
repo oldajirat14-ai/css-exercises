@@ -1,1 +1,12 @@
-/* Add CSS Styling */
+.same{
+    background-color: rgb(219, 158, 165);
+    font-size: 24px;
+    font-family: Verdana;
+    color: rgb(0, 0, 0);
+}
+
+.same-big{
+    font-size: 36px;
+    background-color: rgb(219, 158, 165);
+}
+
