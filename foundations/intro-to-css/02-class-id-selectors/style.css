@@ -5,8 +5,18 @@
     color: rgb(0, 0, 0);
 }
 
-.same-big{
+#big{
     font-size: 36px;
     background-color: rgb(219, 158, 165);
 }
 
+#uniqe{
+    font-size: 50px;
+    color: blue;
+}
+
+#green{
+    background-color: rgb(86, 198, 107);
+    font-size: 38px;
+    font-family: Bold;
+}
