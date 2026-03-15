@@ -6,7 +6,14 @@ body {
   overflow: hidden;
   font-family: Roboto, sans-serif;
 }
- 
+
+
+.container{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
 /* HEADER */
 
 .header{
@@ -37,6 +44,8 @@ body {
 
 /* CONTENT */
 
+
+
 img {
   width: 600px;
 }
@@ -65,5 +74,28 @@ input {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 100px;
+  flex-grow: 1;
+}
+
+/* FOOTER */
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f3f2f2;
+}
+
+.footer ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  gap: 10px;
+  margin: 10px 12px 12px 12px;
+}
+
+.footer ul li a{
+    text-decoration: none;
+    color: #706e6e;
+    font-size: 13px;
 }
