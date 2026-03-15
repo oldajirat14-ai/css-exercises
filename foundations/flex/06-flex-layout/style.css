@@ -6,25 +6,7 @@ body {
   overflow: hidden;
   font-family: Roboto, sans-serif;
 }
-
-img {
-  width: 600px;
-}
-
-button {
-  font-family: Roboto, sans-serif;
-  border: none;
-  border-radius: 8px;
-  background: #eee;
-}
-
-input {
-  border: 1px solid #ddd;
-  border-radius: 16px;
-  padding: 8px 24px;
-  width: 400px;
-}
-
+ 
 /* HEADER */
 
 .header{
@@ -37,17 +19,51 @@ input {
   list-style-type: none;
   padding: 0;
   margin: 0;
+  gap: 10px;
+  margin: 10px 12px 12px 12px;
 }
 
 .header ul li a{ 
-  text-decoration: none;
-  color: #706e6e;
-  font-size: 8px;
-  padding-left: 10px;
-  padding-top: 10px;
+    text-decoration: none;
+    color: #706e6e;
+    font-size: 13px;
+
 }
 
 .left-links, .right-links{
   display: flex;
-  gap: 8px;
+}
+
+
+/* CONTENT */
+
+img {
+  width: 600px;
+}
+
+button {
+  font-family: Roboto, sans-serif;
+  padding: 8px;
+  border: none;
+  border-radius: 8px;
+  background: #eee;
+}
+
+.buttons{
+  padding: 16px;
+}
+
+input {
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  padding: 8px 24px;
+  width: 400px;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
 }
