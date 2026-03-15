@@ -20,18 +20,53 @@ body {
   padding-left: 16px;
 }
 
+/* SIDEBAR */
 
+.container{
+  display: flex;
+  flex: 1;
+}
 
 .sidebar {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
+  flex-shrink: 0;
+}
+
+.sidebar ul{
+      list-style-type: none;
+        padding: 0;
+        margin: 0;
+}
+
+
+.sidebar ul li a{
+      text-decoration: none;
+      font-size: 24px;
+      color: #fff;
+      margin: 16px;
+      gap: 10px;
+      display: flex;
+}
+
+.cards{
+  display: flex;
+  justify-content: flex-start;
+  max-width: auto;
+  flex-wrap: wrap;
+  padding:  48px;
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  display: flex;
+  width: 300px;
+  flex-shrink: 0;
+  margin: 10px;
+  padding: 10px;
 }
 
 /*  FOOTER  */
