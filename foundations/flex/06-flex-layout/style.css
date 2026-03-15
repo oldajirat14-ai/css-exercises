@@ -30,10 +30,10 @@ body {
   margin: 10px 12px 12px 12px;
 }
 
-.header ul li a{ 
+ul li a{ 
     text-decoration: none;
     color: #706e6e;
-    font-size: 13px;
+    font-size: 15px;
 
 }
 
@@ -92,10 +92,4 @@ input {
   margin: 0;
   gap: 10px;
   margin: 10px 12px 12px 12px;
-}
-
-.footer ul li a{
-    text-decoration: none;
-    color: #706e6e;
-    font-size: 13px;
 }
